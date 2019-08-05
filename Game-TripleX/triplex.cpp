@@ -1,4 +1,5 @@
 #include <iostream>
+#include <ctime>
 
 void PrintIntroduction(int Difficult)
 {
@@ -12,9 +13,9 @@ bool PlayGame(int Difficult)
 {
     PrintIntroduction(Difficult);
 
-    const int Number1 = 4;
-    const int Number2 = 3;
-    const int Number3 = 2;
+    const int Number1 = rand() % Difficult + Difficult;
+    const int Number2 = rand() % Difficult + Difficult;
+    const int Number3 = rand() % Difficult + Difficult;
 
     const int Sum = Number1 + Number2 + Number3;
     const int Product = Number1 * Number2 * Number3;
@@ -38,13 +39,15 @@ bool PlayGame(int Difficult)
     }
     else
     {
-        std::cout << "\nThou's life journey has come to an end...\n";
+        std::cout << "\nThou choose the wrong answer as thou life face the worst consequences and came back to life...\n";
+        std::cout << "\nThou will try again...\n";
         return false;
     }
 }
 
 int main()
 {
+    srand(time(NULL));
     int Difficult = 1;
     const int MaxDifficult = 5;
     while (Difficult <= MaxDifficult)
