@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 3-VarConst - Debug ]----------"
-	@cd "3-VarConst" && "$(MAKE)" -f  "3-VarConst.mk"
+	@echo "----------Building project:[ 4-ArrayVector - Debug ]----------"
+	@cd "4-ArrayVector" && "$(MAKE)" -f  "4-ArrayVector.mk"
 clean:
-	@echo "----------Cleaning project:[ 3-VarConst - Debug ]----------"
-	@cd "3-VarConst" && "$(MAKE)" -f  "3-VarConst.mk" clean
+	@echo "----------Cleaning project:[ 4-ArrayVector - Debug ]----------"
+	@cd "4-ArrayVector" && "$(MAKE)" -f  "4-ArrayVector.mk" clean

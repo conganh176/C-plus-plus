@@ -2,19 +2,22 @@
 <CodeLite_Workspace Name="C-plus-plus" Database="" Version="10.0.0">
   <Project Name="1-HelloWorld" Path="1-HelloWorld/1-HelloWorld.project" Active="No"/>
   <Project Name="2-InputOutput" Path="2-InputOutput/2-InputOutput.project" Active="No"/>
-  <Project Name="3-VarConst" Path="3-VarConst/3-VarConst.project" Active="Yes"/>
+  <Project Name="3-VarConst" Path="3-VarConst/3-VarConst.project" Active="No"/>
+  <Project Name="4-ArrayVector" Path="4-ArrayVector/4-ArrayVector.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="1-HelloWorld" ConfigName="Debug"/>
       <Project Name="2-InputOutput" ConfigName="Debug"/>
       <Project Name="3-VarConst" ConfigName="Debug"/>
+      <Project Name="4-ArrayVector" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="1-HelloWorld" ConfigName="Release"/>
       <Project Name="2-InputOutput" ConfigName="Release"/>
       <Project Name="3-VarConst" ConfigName="Release"/>
+      <Project Name="4-ArrayVector" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
