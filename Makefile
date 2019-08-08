@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 5-StatementsOperators - Debug ]----------"
-	@cd "5-StatementsOperators" && "$(MAKE)" -f  "5-StatementsOperators.mk"
+	@echo "----------Building project:[ 6-ControlFlow - Debug ]----------"
+	@cd "6-ControlFlow" && "$(MAKE)" -f  "6-ControlFlow.mk"
 clean:
-	@echo "----------Cleaning project:[ 5-StatementsOperators - Debug ]----------"
-	@cd "5-StatementsOperators" && "$(MAKE)" -f  "5-StatementsOperators.mk" clean
+	@echo "----------Cleaning project:[ 6-ControlFlow - Debug ]----------"
+	@cd "6-ControlFlow" && "$(MAKE)" -f  "6-ControlFlow.mk" clean

@@ -4,7 +4,8 @@
   <Project Name="2-InputOutput" Path="2-InputOutput/2-InputOutput.project" Active="No"/>
   <Project Name="3-VarConst" Path="3-VarConst/3-VarConst.project" Active="No"/>
   <Project Name="4-ArrayVector" Path="4-ArrayVector/4-ArrayVector.project" Active="No"/>
-  <Project Name="5-StatementsOperators" Path="5-StatementsOperators/5-StatementsOperators.project" Active="Yes"/>
+  <Project Name="5-StatementsOperators" Path="5-StatementsOperators/5-StatementsOperators.project" Active="No"/>
+  <Project Name="6-ControlFlow" Path="6-ControlFlow/6-ControlFlow.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="3-VarConst" ConfigName="Debug"/>
       <Project Name="4-ArrayVector" ConfigName="Debug"/>
       <Project Name="5-StatementsOperators" ConfigName="Debug"/>
+      <Project Name="6-ControlFlow" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="3-VarConst" ConfigName="Release"/>
       <Project Name="4-ArrayVector" ConfigName="Release"/>
       <Project Name="5-StatementsOperators" ConfigName="Release"/>
+      <Project Name="6-ControlFlow" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
