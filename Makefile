@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ A1-PrintPyramid - Debug ]----------"
-	@cd "A1-PrintPyramid" && "$(MAKE)" -f  "A1-PrintPyramid.mk"
+	@echo "----------Building project:[ 8-Function - Debug ]----------"
+	@cd "8-Function" && "$(MAKE)" -f  "8-Function.mk"
 clean:
-	@echo "----------Cleaning project:[ A1-PrintPyramid - Debug ]----------"
-	@cd "A1-PrintPyramid" && "$(MAKE)" -f  "A1-PrintPyramid.mk" clean
+	@echo "----------Cleaning project:[ 8-Function - Debug ]----------"
+	@cd "8-Function" && "$(MAKE)" -f  "8-Function.mk" clean
