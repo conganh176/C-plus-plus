@@ -8,7 +8,8 @@
   <Project Name="6-ControlFlow" Path="6-ControlFlow/6-ControlFlow.project" Active="No"/>
   <Project Name="7-Strings" Path="7-Strings/7-Strings.project" Active="No"/>
   <Project Name="A1-PrintPyramid" Path="A1-PrintPyramid/A1-PrintPyramid.project" Active="No"/>
-  <Project Name="8-Function" Path="8-Function/8-Function.project" Active="Yes"/>
+  <Project Name="8-Function" Path="8-Function/8-Function.project" Active="No"/>
+  <Project Name="9-Pointers" Path="9-Pointers/9-Pointers.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -21,6 +22,7 @@
       <Project Name="7-Strings" ConfigName="Debug"/>
       <Project Name="A1-PrintPyramid" ConfigName="Debug"/>
       <Project Name="8-Function" ConfigName="Debug"/>
+      <Project Name="9-Pointers" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -33,6 +35,7 @@
       <Project Name="7-Strings" ConfigName="Release"/>
       <Project Name="A1-PrintPyramid" ConfigName="Release"/>
       <Project Name="8-Function" ConfigName="Release"/>
+      <Project Name="9-Pointers" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
