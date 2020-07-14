@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		52C8185B24B7B49300B85A11 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C8185A24B7B49300B85A11 /* main.cpp */; };
 		52DA313424BE2AD30029254B /* Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52DA313224BE2AD30029254B /* Account.cpp */; };
+		52DA313724BE32B40029254B /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52DA313624BE32B40029254B /* Player.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		52C8185A24B7B49300B85A11 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		52DA313224BE2AD30029254B /* Account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Account.cpp; sourceTree = "<group>"; };
 		52DA313524BE2AF70029254B /* Account.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		52DA313624BE32B40029254B /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		52DA313824BE32BD0029254B /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				52C8185A24B7B49300B85A11 /* main.cpp */,
 				52DA313224BE2AD30029254B /* Account.cpp */,
 				52DA313524BE2AF70029254B /* Account.h */,
+				52DA313624BE32B40029254B /* Player.cpp */,
+				52DA313824BE32BD0029254B /* Player.h */,
 			);
 			path = "10-Class";
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			files = (
 				52C8185B24B7B49300B85A11 /* main.cpp in Sources */,
 				52DA313424BE2AD30029254B /* Account.cpp in Sources */,
+				52DA313724BE32B40029254B /* Player.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

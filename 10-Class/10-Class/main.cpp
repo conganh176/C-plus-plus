@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Account.h"
+#include "Player.h"
 
 int main(int argc, const char * argv[]) {
     Account frank_account;
@@ -28,6 +29,24 @@ int main(int argc, const char * argv[]) {
     else {
         std::cout << "Withdraw Error" << std::endl;
     }
+    
+    {
+        Player slayer;
+    }
+    
+    {
+        Player hero("Hero");
+        Player villain("Villain", 100, 12);
+    }
+    
+    Player *enemy = new Player();
+    enemy->set_name("Enemy");
+    
+    Player *boss = new Player("Boss", 1000, 300);
+    boss->set_name("Boss");
+    
+    delete enemy;
+    delete boss;
     
     return 0;
 }
