@@ -3,4 +3,54 @@
    uuid = "C2BBC5E7-65D9-4021-A594-2825A67C195E"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71EC8BA5-4182-460E-8BF0-0C8DCD42D99E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "10-Class/Player.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "71EC8BA5-4182-460E-8BF0-0C8DCD42D99E - 1de759825c6ea2d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Player::Player(Player const&amp;)"
+                  moduleName = "10-Class"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sworlds/Desktop/C-plus-plus/10-Class/10-Class/Player.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "71EC8BA5-4182-460E-8BF0-0C8DCD42D99E - 1de759825c6ea2d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Player::Player(Player const&amp;)"
+                  moduleName = "10-Class"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sworlds/Desktop/C-plus-plus/10-Class/10-Class/Player.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

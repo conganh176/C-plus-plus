@@ -36,7 +36,14 @@ int main(int argc, const char * argv[]) {
     
     {
         Player hero("Hero");
+        Player npc("NPC", 100);
         Player villain("Villain", 100, 12);
+    }
+    
+    {
+        Player empty {"XXX", 420, 69};
+        Player new_object {empty};
+        display_player(empty);
     }
     
     Player *enemy = new Player();
