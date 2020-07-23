@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5204A57324C9AA2000C0286F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5204A57224C9AA2000C0286F /* main.cpp */; };
-		52FB115324C9CDE40092B4D2 /* MyString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52FB115224C9CDE40092B4D2 /* MyString.cpp */; };
+		52FB116224CA136F0092B4D2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52FB116124CA136F0092B4D2 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5204A56D24C9AA2000C0286F /* CopyFiles */ = {
+		52FB115C24CA136F0092B4D2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5204A56F24C9AA2000C0286F /* Cha2-OperatorOverloading */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Cha2-OperatorOverloading"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5204A57224C9AA2000C0286F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		52FB115224C9CDE40092B4D2 /* MyString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyString.cpp; sourceTree = "<group>"; };
-		52FB115424C9CDEE0092B4D2 /* MyString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyString.h; sourceTree = "<group>"; };
+		52FB115E24CA136F0092B4D2 /* 12-Inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12-Inheritance"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FB116124CA136F0092B4D2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5204A56C24C9AA2000C0286F /* Frameworks */ = {
+		52FB115B24CA136F0092B4D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,67 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5204A56624C9AA2000C0286F = {
+		52FB115524CA136F0092B4D2 = {
 			isa = PBXGroup;
 			children = (
-				5204A57124C9AA2000C0286F /* Cha2-OperatorOverloading */,
-				5204A57024C9AA2000C0286F /* Products */,
+				52FB116024CA136F0092B4D2 /* 12-Inheritance */,
+				52FB115F24CA136F0092B4D2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5204A57024C9AA2000C0286F /* Products */ = {
+		52FB115F24CA136F0092B4D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5204A56F24C9AA2000C0286F /* Cha2-OperatorOverloading */,
+				52FB115E24CA136F0092B4D2 /* 12-Inheritance */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5204A57124C9AA2000C0286F /* Cha2-OperatorOverloading */ = {
+		52FB116024CA136F0092B4D2 /* 12-Inheritance */ = {
 			isa = PBXGroup;
 			children = (
-				5204A57224C9AA2000C0286F /* main.cpp */,
-				52FB115224C9CDE40092B4D2 /* MyString.cpp */,
-				52FB115424C9CDEE0092B4D2 /* MyString.h */,
+				52FB116124CA136F0092B4D2 /* main.cpp */,
 			);
-			path = "Cha2-OperatorOverloading";
+			path = "12-Inheritance";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5204A56E24C9AA2000C0286F /* Cha2-OperatorOverloading */ = {
+		52FB115D24CA136F0092B4D2 /* 12-Inheritance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5204A57624C9AA2000C0286F /* Build configuration list for PBXNativeTarget "Cha2-OperatorOverloading" */;
+			buildConfigurationList = 52FB116524CA136F0092B4D2 /* Build configuration list for PBXNativeTarget "12-Inheritance" */;
 			buildPhases = (
-				5204A56B24C9AA2000C0286F /* Sources */,
-				5204A56C24C9AA2000C0286F /* Frameworks */,
-				5204A56D24C9AA2000C0286F /* CopyFiles */,
+				52FB115A24CA136F0092B4D2 /* Sources */,
+				52FB115B24CA136F0092B4D2 /* Frameworks */,
+				52FB115C24CA136F0092B4D2 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Cha2-OperatorOverloading";
-			productName = "Cha2-OperatorOverloading";
-			productReference = 5204A56F24C9AA2000C0286F /* Cha2-OperatorOverloading */;
+			name = "12-Inheritance";
+			productName = "12-Inheritance";
+			productReference = 52FB115E24CA136F0092B4D2 /* 12-Inheritance */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5204A56724C9AA2000C0286F /* Project object */ = {
+		52FB115624CA136F0092B4D2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Cong Anh Nguyen";
 				TargetAttributes = {
-					5204A56E24C9AA2000C0286F = {
+					52FB115D24CA136F0092B4D2 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 5204A56A24C9AA2000C0286F /* Build configuration list for PBXProject "Cha2-OperatorOverloading" */;
+			buildConfigurationList = 52FB115924CA136F0092B4D2 /* Build configuration list for PBXProject "12-Inheritance" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,30 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 5204A56624C9AA2000C0286F;
-			productRefGroup = 5204A57024C9AA2000C0286F /* Products */;
+			mainGroup = 52FB115524CA136F0092B4D2;
+			productRefGroup = 52FB115F24CA136F0092B4D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5204A56E24C9AA2000C0286F /* Cha2-OperatorOverloading */,
+				52FB115D24CA136F0092B4D2 /* 12-Inheritance */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5204A56B24C9AA2000C0286F /* Sources */ = {
+		52FB115A24CA136F0092B4D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52FB115324C9CDE40092B4D2 /* MyString.cpp in Sources */,
-				5204A57324C9AA2000C0286F /* main.cpp in Sources */,
+				52FB116224CA136F0092B4D2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5204A57424C9AA2000C0286F /* Debug */ = {
+		52FB116324CA136F0092B4D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		5204A57524C9AA2000C0286F /* Release */ = {
+		52FB116424CA136F0092B4D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +235,7 @@
 			};
 			name = Release;
 		};
-		5204A57724C9AA2000C0286F /* Debug */ = {
+		52FB116624CA136F0092B4D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -249,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		5204A57824C9AA2000C0286F /* Release */ = {
+		52FB116724CA136F0092B4D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -260,25 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5204A56A24C9AA2000C0286F /* Build configuration list for PBXProject "Cha2-OperatorOverloading" */ = {
+		52FB115924CA136F0092B4D2 /* Build configuration list for PBXProject "12-Inheritance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5204A57424C9AA2000C0286F /* Debug */,
-				5204A57524C9AA2000C0286F /* Release */,
+				52FB116324CA136F0092B4D2 /* Debug */,
+				52FB116424CA136F0092B4D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5204A57624C9AA2000C0286F /* Build configuration list for PBXNativeTarget "Cha2-OperatorOverloading" */ = {
+		52FB116524CA136F0092B4D2 /* Build configuration list for PBXNativeTarget "12-Inheritance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5204A57724C9AA2000C0286F /* Debug */,
-				5204A57824C9AA2000C0286F /* Release */,
+				52FB116624CA136F0092B4D2 /* Debug */,
+				52FB116724CA136F0092B4D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5204A56724C9AA2000C0286F /* Project object */;
+	rootObject = 52FB115624CA136F0092B4D2 /* Project object */;
 }
