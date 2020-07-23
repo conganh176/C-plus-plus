@@ -48,3 +48,7 @@ void display_player(Player p) {
     std::cout << "Health: " << p.get_health() << std::endl;
     std::cout << "XP: " << p.get_xp() << std::endl;
 }
+
+Player::~Player() {
+    std::cout << "Destructor called for " << name << std::endl;
+}

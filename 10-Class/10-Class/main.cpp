@@ -3,6 +3,7 @@
 #include "Player.h"
 
 int main(int argc, const char * argv[]) {
+    //Account
     Account frank_account;
     frank_account.set_name("Frank's account");
     frank_account.set_balance(5000.0);
@@ -30,6 +31,7 @@ int main(int argc, const char * argv[]) {
         std::cout << "Withdraw Error" << std::endl;
     }
     
+    //Player
     {
         Player slayer;
     }
