@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5204A55D24C95EC800C0286F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5204A55C24C95EC800C0286F /* main.cpp */; };
+		5204A56424C96C3D00C0286F /* MyString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5204A56324C96C3D00C0286F /* MyString.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		5204A55924C95EC800C0286F /* 11-OperatorOverloading */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11-OperatorOverloading"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5204A55C24C95EC800C0286F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5204A56324C96C3D00C0286F /* MyString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyString.cpp; sourceTree = "<group>"; };
+		5204A56524C96C5B00C0286F /* MyString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyString.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				5204A55C24C95EC800C0286F /* main.cpp */,
+				5204A56324C96C3D00C0286F /* MyString.cpp */,
+				5204A56524C96C5B00C0286F /* MyString.h */,
 			);
 			path = "11-OperatorOverloading";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5204A56424C96C3D00C0286F /* MyString.cpp in Sources */,
 				5204A55D24C95EC800C0286F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
