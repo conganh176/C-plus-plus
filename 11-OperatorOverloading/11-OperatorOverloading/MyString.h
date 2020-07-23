@@ -8,6 +8,7 @@
 
 #ifndef _MYSTRING_H_
 #define _MYSTRING_H_
+#include <iostream>
 
 class MyString {
     //Global functions
@@ -37,6 +38,10 @@ public:
 //    MyString operator-() const;     //make lowercase
 //    MyString operator+(const MyString &rhs) const;     //concat
 //    bool operator==(const MyString &rhs) const;
+    
+    //Stream Insertion/Extraction
+    friend std::ostream &operator<<(std::ostream &os, const MyString &rhs);
+    friend std::istream &operator>>(std::istream &in, MyString &rhs);
 };
 
 #endif /* MyString_h */

@@ -143,3 +143,17 @@ MyString operator+(const MyString &lhs, const MyString &rhs) {
     delete[] buff;
     return temp;
 }
+
+//Stream Insertion/Extraction
+std::ostream &operator<<(std::ostream &os, const MyString &rhs) {
+    os << rhs.str;
+    return os;
+}
+
+std::istream &operator>>(std::istream &in, MyString &rhs) {
+    char *buff = new char[1000];
+    in >> buff;
+    rhs = MyString{buff};
+    delete[] buff;
+    return in;
+}

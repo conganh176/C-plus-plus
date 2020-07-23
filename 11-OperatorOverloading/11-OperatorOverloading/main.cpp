@@ -67,5 +67,20 @@ int main(int argc, const char * argv[]) {
         three_stooges.display();
     }
     
+    //Stream Insertion/Extraction
+    {
+        MyString alpha{"Alpha"};
+        MyString beta{"Beta"};
+        MyString charlie;
+        
+        std::cout << "Enter the first one name: ";
+        std::cin >> charlie;
+        std::cout << "The three stooges are " << alpha << ", " << beta << ", " << charlie << std::endl;
+        
+        std::cout << "Enter the three stooges name separated by a space: ";
+        std::cin >> alpha >> beta >> charlie;
+        std::cout << "The three stooges are " << alpha << ", " << beta << ", " << charlie << std::endl;
+    }
+    
     return 0;
 }
