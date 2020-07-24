@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52C2EB8824CB299600A32784 /* Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C2EB8724CB299600A32784 /* Account.cpp */; };
-		52C2EB8C24CB2A5700A32784 /* Saving_Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C2EB8A24CB2A5700A32784 /* Saving_Account.cpp */; };
-		52FB116224CA136F0092B4D2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52FB116124CA136F0092B4D2 /* main.cpp */; };
+		52C2EB9A24CB2EE400A32784 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C2EB9924CB2EE400A32784 /* main.cpp */; };
+		52C2EBA224CB2EFA00A32784 /* Base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C2EBA124CB2EFA00A32784 /* Base.cpp */; };
+		52C2EBA524CB2F1300A32784 /* Derived.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C2EBA424CB2F1300A32784 /* Derived.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		52FB115C24CA136F0092B4D2 /* CopyFiles */ = {
+		52C2EB9424CB2EE400A32784 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,16 +25,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		52C2EB8624CB298A00A32784 /* Account.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
-		52C2EB8724CB299600A32784 /* Account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Account.cpp; sourceTree = "<group>"; };
-		52C2EB8924CB2A4600A32784 /* Saving_Account.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Saving_Account.h; sourceTree = "<group>"; };
-		52C2EB8A24CB2A5700A32784 /* Saving_Account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Saving_Account.cpp; sourceTree = "<group>"; };
-		52FB115E24CA136F0092B4D2 /* 12-Inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12-Inheritance"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52FB116124CA136F0092B4D2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		52C2EB9624CB2EE400A32784 /* 12.1-ClassAccess */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12.1-ClassAccess"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C2EB9924CB2EE400A32784 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		52C2EBA024CB2EF000A32784 /* Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
+		52C2EBA124CB2EFA00A32784 /* Base.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Base.cpp; sourceTree = "<group>"; };
+		52C2EBA324CB2F0800A32784 /* Derived.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Derived.h; sourceTree = "<group>"; };
+		52C2EBA424CB2F1300A32784 /* Derived.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Derived.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		52FB115B24CA136F0092B4D2 /* Frameworks */ = {
+		52C2EB9324CB2EE400A32784 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,69 +44,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		52FB115524CA136F0092B4D2 = {
+		52C2EB8D24CB2EE400A32784 = {
 			isa = PBXGroup;
 			children = (
-				52FB116024CA136F0092B4D2 /* 12-Inheritance */,
-				52FB115F24CA136F0092B4D2 /* Products */,
+				52C2EB9824CB2EE400A32784 /* 12.1-ClassAccess */,
+				52C2EB9724CB2EE400A32784 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		52FB115F24CA136F0092B4D2 /* Products */ = {
+		52C2EB9724CB2EE400A32784 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52FB115E24CA136F0092B4D2 /* 12-Inheritance */,
+				52C2EB9624CB2EE400A32784 /* 12.1-ClassAccess */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52FB116024CA136F0092B4D2 /* 12-Inheritance */ = {
+		52C2EB9824CB2EE400A32784 /* 12.1-ClassAccess */ = {
 			isa = PBXGroup;
 			children = (
-				52FB116124CA136F0092B4D2 /* main.cpp */,
-				52C2EB8624CB298A00A32784 /* Account.h */,
-				52C2EB8724CB299600A32784 /* Account.cpp */,
-				52C2EB8924CB2A4600A32784 /* Saving_Account.h */,
-				52C2EB8A24CB2A5700A32784 /* Saving_Account.cpp */,
+				52C2EB9924CB2EE400A32784 /* main.cpp */,
+				52C2EBA024CB2EF000A32784 /* Base.h */,
+				52C2EBA124CB2EFA00A32784 /* Base.cpp */,
+				52C2EBA324CB2F0800A32784 /* Derived.h */,
+				52C2EBA424CB2F1300A32784 /* Derived.cpp */,
 			);
-			path = "12-Inheritance";
+			path = "12.1-ClassAccess";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52FB115D24CA136F0092B4D2 /* 12-Inheritance */ = {
+		52C2EB9524CB2EE400A32784 /* 12.1-ClassAccess */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52FB116524CA136F0092B4D2 /* Build configuration list for PBXNativeTarget "12-Inheritance" */;
+			buildConfigurationList = 52C2EB9D24CB2EE400A32784 /* Build configuration list for PBXNativeTarget "12.1-ClassAccess" */;
 			buildPhases = (
-				52FB115A24CA136F0092B4D2 /* Sources */,
-				52FB115B24CA136F0092B4D2 /* Frameworks */,
-				52FB115C24CA136F0092B4D2 /* CopyFiles */,
+				52C2EB9224CB2EE400A32784 /* Sources */,
+				52C2EB9324CB2EE400A32784 /* Frameworks */,
+				52C2EB9424CB2EE400A32784 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "12-Inheritance";
-			productName = "12-Inheritance";
-			productReference = 52FB115E24CA136F0092B4D2 /* 12-Inheritance */;
+			name = "12.1-ClassAccess";
+			productName = "12.1-ClassAccess";
+			productReference = 52C2EB9624CB2EE400A32784 /* 12.1-ClassAccess */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		52FB115624CA136F0092B4D2 /* Project object */ = {
+		52C2EB8E24CB2EE400A32784 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Cong Anh Nguyen";
 				TargetAttributes = {
-					52FB115D24CA136F0092B4D2 = {
+					52C2EB9524CB2EE400A32784 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 52FB115924CA136F0092B4D2 /* Build configuration list for PBXProject "12-Inheritance" */;
+			buildConfigurationList = 52C2EB9124CB2EE400A32784 /* Build configuration list for PBXProject "12.1-ClassAccess" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,31 +114,31 @@
 				en,
 				Base,
 			);
-			mainGroup = 52FB115524CA136F0092B4D2;
-			productRefGroup = 52FB115F24CA136F0092B4D2 /* Products */;
+			mainGroup = 52C2EB8D24CB2EE400A32784;
+			productRefGroup = 52C2EB9724CB2EE400A32784 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52FB115D24CA136F0092B4D2 /* 12-Inheritance */,
+				52C2EB9524CB2EE400A32784 /* 12.1-ClassAccess */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		52FB115A24CA136F0092B4D2 /* Sources */ = {
+		52C2EB9224CB2EE400A32784 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52C2EB8C24CB2A5700A32784 /* Saving_Account.cpp in Sources */,
-				52FB116224CA136F0092B4D2 /* main.cpp in Sources */,
-				52C2EB8824CB299600A32784 /* Account.cpp in Sources */,
+				52C2EBA224CB2EFA00A32784 /* Base.cpp in Sources */,
+				52C2EBA524CB2F1300A32784 /* Derived.cpp in Sources */,
+				52C2EB9A24CB2EE400A32784 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		52FB116324CA136F0092B4D2 /* Debug */ = {
+		52C2EB9B24CB2EE400A32784 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -196,7 +196,7 @@
 			};
 			name = Debug;
 		};
-		52FB116424CA136F0092B4D2 /* Release */ = {
+		52C2EB9C24CB2EE400A32784 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,7 +247,7 @@
 			};
 			name = Release;
 		};
-		52FB116624CA136F0092B4D2 /* Debug */ = {
+		52C2EB9E24CB2EE400A32784 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -255,7 +255,7 @@
 			};
 			name = Debug;
 		};
-		52FB116724CA136F0092B4D2 /* Release */ = {
+		52C2EB9F24CB2EE400A32784 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -266,25 +266,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52FB115924CA136F0092B4D2 /* Build configuration list for PBXProject "12-Inheritance" */ = {
+		52C2EB9124CB2EE400A32784 /* Build configuration list for PBXProject "12.1-ClassAccess" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52FB116324CA136F0092B4D2 /* Debug */,
-				52FB116424CA136F0092B4D2 /* Release */,
+				52C2EB9B24CB2EE400A32784 /* Debug */,
+				52C2EB9C24CB2EE400A32784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52FB116524CA136F0092B4D2 /* Build configuration list for PBXNativeTarget "12-Inheritance" */ = {
+		52C2EB9D24CB2EE400A32784 /* Build configuration list for PBXNativeTarget "12.1-ClassAccess" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52FB116624CA136F0092B4D2 /* Debug */,
-				52FB116724CA136F0092B4D2 /* Release */,
+				52C2EB9E24CB2EE400A32784 /* Debug */,
+				52C2EB9F24CB2EE400A32784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 52FB115624CA136F0092B4D2 /* Project object */;
+	rootObject = 52C2EB8E24CB2EE400A32784 /* Project object */;
 }
