@@ -7,9 +7,21 @@
 //
 
 #include <iostream>
+#include "Base.h"
+#include "Derived.h"
 
 int main(int argc, const char * argv[]) {
-    
+    {
+//        Base b {100};
+//        Base b1 {b};
+//        b = b1;
+    }
+    std::cout << std::endl;
+    {
+        Derived d {100};
+        Derived d1 {d};
+        d = d1;
+    }
     
     return 0;
 }
