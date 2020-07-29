@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>17-ReadingTextFile.xcscheme_^#shared#^_</key>
+		<key>18-WritingTextFile.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>527815B424D0C88F0007A6B2</key>
+		<key>52619BF624D174200091CB7A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
